@@ -1,0 +1,10 @@
+.watch-container {
+    display: grid;
+    grid-template-columns: 5fr;
+}
+
+.watch-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
