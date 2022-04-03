@@ -1,0 +1,8 @@
+.herColor {
+    color: #ff0000;
+    margin-left: 10px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
