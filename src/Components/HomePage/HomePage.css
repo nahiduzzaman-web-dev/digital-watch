@@ -16,7 +16,8 @@
     padding: 15px 0px 35px 0px;
 }
 
-.buyNow {
+.buyNow,
+.explore {
     border: none;
     background-color: #008B8B;
     color: #ffffff;

@@ -2,11 +2,17 @@ import React from 'react';
 import bannerOne from '../../Banners/banner-1.jpg';
 import bannerTwo from '../../Banners/banner-2.jpg';
 import bannerThree from '../../Banners/banner-3.jpg';
+import useProducts from '../hooks/useProducts';
+import Watch from '../Watch/Watch';
+import { useNavigate } from 'react-router-dom';
 import './HomePage.css'
 
 
 const HomePage = () => {
+    const [watchProducts, setWatchProducts] = useProducts();
+    const navigate = useNavigate();
     return (
+
         <div className='pt-3'>
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
@@ -100,7 +106,26 @@ const HomePage = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-        </div>
+            <div className='container'>
+                <div className='my-5 py-5'>
+                    <h3 className='text-center'>Customers Reciews (3)</h3>
+                    <div className="watch-container mt-5">
+                        <div className='watch-box'>
+                            {
+                                watchProducts.map(watch => <Watch
+                                    key={watch.id}
+                                    watch={watch}
+                                ></Watch>)
+                            }
+                        </div>
+
+                    </div>
+                    <div className='mt-3'>
+                        <button className='explore rounded-pill' onClick={() => navigate('reviews')}>Explore for Buying</button>
+                    </div>
+                </div>
+            </div>
+        </div >
     );
 };
 

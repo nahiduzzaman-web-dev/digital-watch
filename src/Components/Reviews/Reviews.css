@@ -8,3 +8,16 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+
+@media screen and (max-width:600px) {
+    .watch-box {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width:610px) and (max-width:850px) {
+    .watch-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

@@ -3,10 +3,10 @@
 }
 
 .watch-reviews-container .productIMG {
-    width: 350px;
+    width: 340px;
     height: 350px;
-    padding: 15px;
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
 }
 
 .watch-name {
@@ -22,6 +22,15 @@
     height: 80px;
     border-radius: 50%;
     margin-right: 8px;
+}
+
+.comment-icon {
+    color: cadetblue;
+}
+
+.user-name {
+    font-weight: bold;
+    color: gray;
 }
 
 .user-info p {
