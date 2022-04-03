@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "name": "Haifa Rahman",
+        "userImg": "../public/users/user-1.jpg",
+        "productImg": "../public/productImages/product-1.jpg",
+        "reviews": "This is good phone but my expectation is so much high for this phone.",
+        "rating": "3"
+    },
+    {
+        "id": "2",
+        "name": "Hasan Ullah",
+        "userImg": "../public/users/user-2.jpg",
+        "productImg": "../public/productImages/product-2.jpg",
+        "reviews": "This phone is really good so I give full of rating. It's full fill-up my expectation.",
+        "rating": "5"
+    },
+    {
+        "id": "3",
+        "name": "Zeni majid",
+        "userImg": "../public/users/user-3.jpg",
+        "productImg": "../public/productImages/product-3.jpg",
+        "reviews": "This phone's quality is overall okay but I think it can be more better.",
+        "rating": "4"
+    },
+    {
+        "id": "4",
+        "name": "Akash Nahid",
+        "userImg": "../public/users/user-4.jpg",
+        "productImg": "../public/productImages/product-4.jpg",
+        "reviews": "This phone is really good so I give full of rating. It's full fill-up my expectation.",
+        "rating": "5"
+    },
+    {
+        "id": "5",
+        "name": "Simi Rahman",
+        "userImg": "../public/users/user-5.jpg",
+        "productImg": "../public/productImages/product-5.jpg",
+        "reviews": "This phone is good but when I use this phone I face some optimizing issues.",
+        "rating": "4"
+    },
+    {
+        "id": "6",
+        "name": "Rasel Monru",
+        "userImg": "../public/users/user-6.jpg",
+        "productImg": "../public/productImages/product-6.jpg",
+        "reviews": "This phone gives me full of satisfaction. I really happy for it's awesome looks and build quality.",
+        "rating": "5"
+    }
+]
