@@ -1,9 +1,15 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './Components/Header/Header';
+import HomePage from './Components/HomePage/HomePage';
 
 function App() {
   return (
-    <div className="">
-      <h1 className='text-center'>Project Start</h1>
+    <div>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<HomePage></HomePage>}></Route>
+      </Routes>
     </div>
   );
 }

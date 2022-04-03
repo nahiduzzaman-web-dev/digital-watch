@@ -1,0 +1,26 @@
+.carousel-inner {
+    padding-top: 15px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #008b8b8f !important;
+}
+
+.caro-indicator {
+    background-color: #008B8B !important;
+}
+
+.banners {
+    height: 350px;
+    width: 550px;
+    padding: 15px 0px 35px 0px;
+}
+
+.buyNow {
+    border: none;
+    background-color: #008B8B;
+    color: #ffffff;
+    padding: 10px 20px;
+
+}

@@ -1,0 +1,44 @@
+.nav-background {
+    background-color: #008B8B;
+}
+
+.bd {
+    color: #00FF00;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.brand-name {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 15px !important;
+}
+
+.nav-link:hover {
+    color: #008B8B;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    border-right: 2px solid #ffffff;
+    padding-right: 10px;
+    border-bottom: 2px solid #ffffff;
+    border-end-end-radius: 10px;
+}
+
+.navbar-toggler-icon {
+    color: green;
+    font-size: 30px;
+}
