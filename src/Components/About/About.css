@@ -1,0 +1,15 @@
+.img_content {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+
+
+.my-image img {
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+
+}
+
+.about-me-p p {
+    text-align: justify;
+}

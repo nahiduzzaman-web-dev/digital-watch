@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from './Components/About/About';
 import Blogs from './Components/Blogs/Blogs';
 import DashBoard from './Components/DashBoard/DashBoard';
 import Footer from './Components/Footer/Footer';
@@ -16,6 +17,7 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/dashBoard' element={<DashBoard></DashBoard>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
