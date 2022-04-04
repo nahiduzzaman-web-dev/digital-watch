@@ -16,14 +16,20 @@
 .nav-link {
     color: #ffffff;
     font-size: 20px;
-    padding: 10px 15px !important;
+    padding: 5px 15px !important;
+    margin: 0px 3px;
+}
+
+.nav-link:active {
+    color: #ffffff !important;
 }
 
 .nav-link:hover {
-    color: #008B8B;
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 10px 15px;
+    color: #008B8B !important;
+    border-right: 4px solid rgb(111, 243, 155);
+    background-color: #8fbc8f !important;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
 
 }
 

@@ -1,8 +1,5 @@
 import React from 'react';
 import {
-    Routes,
-    Route,
-    Outlet,
     Link,
     useMatch,
     useResolvedPath,
@@ -12,7 +9,7 @@ const CustomActive = ({ children, to, ...props }) => {
     let match = useMatch({ path: resolved.pathname, end: true });
     return (
         <Link
-            style={{ textDecoration: match ? "underline" : "none" }}
+            style={{ backgroundColor: match ? "#8fbc8f" : "#008B8B" }}
             to={to}
             {...props}
         >

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BiMenuAltRight } from 'react-icons/bi'
 import './Header.css'
+import CustomActive from '../CustomActive/CustomActive';
 
 const Header = () => {
     return (
@@ -15,19 +16,19 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link to='/' className="nav-link" aria-current="page">Home</Link >
+                                <CustomActive to='/' className="nav-link" aria-current="page">Home</ CustomActive>
                             </li>
                             <li className="nav-item">
-                                <Link to='/reviews' className="nav-link">Review</Link >
+                                <CustomActive to='/reviews' className="nav-link">Review</CustomActive >
                             </li>
                             <li className="nav-item">
-                                <Link to='/dashBoard' className="nav-link">Dash Board</Link >
+                                <CustomActive to='/dashBoard' className="nav-link">Dash Board</CustomActive >
                             </li>
                             <li className="nav-item">
-                                <Link to='/blogs' className="nav-link">Blogs</Link >
+                                <CustomActive to='/blogs' className="nav-link">Blogs</CustomActive >
                             </li>
                             <li className="nav-item">
-                                <Link to='/about' className="nav-link">About</Link >
+                                <CustomActive to='/about' className="nav-link">About</CustomActive >
                             </li>
                         </ul>
 
