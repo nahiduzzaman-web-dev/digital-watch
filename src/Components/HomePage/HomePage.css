@@ -21,6 +21,14 @@
     border: none;
     background-color: #008B8B;
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 10px 30px;
 
+}
+
+.buyNow:hover,
+.explore:hover {
+    border: 1px solid #008B8B;
+    background-color: #ffffff;
+    color: #008B8B;
+    position: relative;
 }
