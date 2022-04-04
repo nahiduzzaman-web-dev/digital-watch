@@ -1,6 +1,6 @@
 import { Radar } from 'recharts';
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, PolarAngleAxis, PolarGrid, PolarRadiusAxis, RadarChart, Tooltip, XAxis, YAxis } from 'recharts';
-import "./DashBoard.css"
+import "./DashBoard.css";
 
 
 
@@ -56,9 +56,9 @@ const DashBoard = () => {
                     <div className="col-md-12">
                         <div className='chart'>
 
-                            <div className="">
+                            <div className="chart-area">
                                 <div className='line-chart'>
-                                    <LineChart width={500} height={300} data={chartData} className="line-chart">
+                                    <LineChart width={300} height={300} data={chartData} className="line-chart">
                                         <Line type="monotone" dataKey="sell" stroke="#00FF00" />
                                         <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
                                         <Line type="monotone" dataKey="investment" stroke="#000080" />
@@ -71,7 +71,7 @@ const DashBoard = () => {
                             </div>
 
                             <div className=' bar-chart'>
-                                <BarChart width={500} height={300} data={chartData} className="bar-chart">
+                                <BarChart width={300} height={300} data={chartData} className="bar-chart">
                                     <CartesianGrid strokeDasharray="3 3" />
                                     <XAxis dataKey="month" />
                                     <YAxis />
@@ -83,7 +83,7 @@ const DashBoard = () => {
                                 </BarChart>
                             </div>
                             <div>
-                                <PieChart width={500} height={300} data={chartData}>
+                                <PieChart width={300} height={300} data={chartData}>
                                     <Pie data={chartData} dataKey="sell" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
 
                                     <Pie data={chartData} dataKey="investment" nameKey="revenue" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
@@ -91,7 +91,7 @@ const DashBoard = () => {
                             </div>
 
                             <div>
-                                <RadarChart outerRadius={90} width={730} height={250} data={chartData}>
+                                <RadarChart outerRadius={90} width={300} height={250} data={chartData}>
                                     <PolarGrid />
                                     <PolarAngleAxis dataKey="month" />
                                     <PolarRadiusAxis angle={30} domain={[0, 150]} />
