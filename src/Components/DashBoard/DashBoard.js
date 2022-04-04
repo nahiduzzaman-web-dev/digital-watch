@@ -51,7 +51,7 @@ const DashBoard = () => {
     return (
         <section>
             <h4 className='text-center'> Product's Chart</h4>
-            <div className="containe">
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col-md-12">
                         <div className='chart'>

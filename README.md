@@ -1,10 +1,20 @@
-# Getting Started with Create React App
+# BD Digital Watch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [BD Digital Watch](https://bd-digital-watch.netlify.app/).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run: [Source Code](https://github.com/programming-hero-web-course-4/product-analysis-website-nahiduzzaman2021).
+
+## My Sites Fetures (Site Name: [BD Digital Watch])
+
+* Review features.
+* Chart features.
+* you known to about me
+* good design with responsive
+* Customer's reviews with user name, image, and rating 
+
+
 
 ### `npm start`
 
