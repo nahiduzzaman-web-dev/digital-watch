@@ -29,6 +29,9 @@ const Watch = (props) => {
                 </div>
 
             </div>
+            <div className='d-flex justify-content-end'>
+                <button className='buy-btn-watch'>Buy Now</button>
+            </div>
 
         </div>
     );

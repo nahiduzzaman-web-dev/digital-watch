@@ -1,3 +1,6 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@400;500;600&display=swap');
+
 .watch-reviews-container {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -43,4 +46,11 @@
 
 .rating {
     padding: 10px 12px;
+}
+
+.buy-btn-watch {
+    border: none;
+    color: #008B8B;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
 }

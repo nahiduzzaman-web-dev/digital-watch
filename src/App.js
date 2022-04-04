@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Blogs from './Components/Blogs/Blogs';
 import DashBoard from './Components/DashBoard/DashBoard';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import HomePage from './Components/HomePage/HomePage';
 import Reviews from './Components/Reviews/Reviews';
@@ -16,6 +17,7 @@ function App() {
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/dashBoard' element={<DashBoard></DashBoard>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

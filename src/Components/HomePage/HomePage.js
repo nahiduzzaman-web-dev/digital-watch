@@ -31,7 +31,7 @@ const HomePage = () => {
                                             <h1>Welcome Here</h1>
                                             <h3>You can buy your choosy Digital Watch</h3>
                                             <h4>from BD Digital Watch</h4>
-                                            <button className='buyNow rounded-pill'>Buy Now</button>
+                                            <button className='buyNow rounded-pill' onClick={() => navigate('reviews')}>Buy Now</button>
                                         </div>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ const HomePage = () => {
                                             <h1>Look Here</h1>
                                             <h3>Awaiting your choosy Digital Watch</h3>
                                             <h4>So don't be late.</h4>
-                                            <button className='buyNow rounded-pill'>Buy Now</button>
+                                            <button className='buyNow rounded-pill' onClick={() => navigate('reviews')}>Buy Now</button>
                                         </div>
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@ const HomePage = () => {
                                             <h1>Smart Look</h1>
                                             <h3>Create New moment awiting.</h3>
                                             <h4>So don't be shilly to buy.</h4>
-                                            <button className='buyNow rounded-pill'>Buy Now</button>
+                                            <button className='buyNow rounded-pill' onClick={() => navigate('reviews')}>Buy Now</button>
                                         </div>
                                     </div>
                                 </div>

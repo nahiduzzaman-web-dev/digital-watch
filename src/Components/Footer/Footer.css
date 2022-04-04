@@ -1,0 +1,34 @@
+.footer {
+    background-color: #708090;
+    color: #ffffff;
+}
+
+.footer-product-image {
+    width: 80px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.review-btn {
+    border: none;
+    padding: 8px 15px;
+    color: #008B8B;
+    font-weight: bold;
+}
+
+.review-btn:hover {
+    background-color: #008B8B;
+    color: #ffffff;
+}
+
+.social-icons a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 3px;
+    padding: 5px;
+}
+
+.social-icons a:hover {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
