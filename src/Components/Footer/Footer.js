@@ -39,9 +39,14 @@ const Footer = () => {
                                 {
                                     watchProducts.map(watch =>
 
-                                        <>
-                                            <img className='footer-product-image' src={watch.productImg} alt="" onClick={() => navigate('reviews')} />
-                                        </>
+                                        <span
+                                            key={watch.id}
+                                        >
+
+                                            <img className='footer-product-image' src={watch.productImg} alt="" onClick={() => navigate('reviews')}
+                                                key={watch.id}
+                                            />
+                                        </span>
 
 
                                     )
