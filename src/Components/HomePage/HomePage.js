@@ -112,7 +112,8 @@ const HomePage = () => {
                     <div className="watch-container mt-5">
                         <div className='watch-box'>
                             {
-                                watchProducts.map(watch => <Watch
+
+                                watchProducts.slice(0, 3).map(watch => <Watch
                                     key={watch.id}
                                     watch={watch}
                                 ></Watch>)

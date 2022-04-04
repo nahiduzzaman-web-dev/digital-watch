@@ -4,6 +4,7 @@ import { MdDriveFileRenameOutline } from 'react-icons/md'
 import { AiOutlineStar } from 'react-icons/ai'
 
 const Watch = (props) => {
+
     const { watch_name, user_name, userImg, productImg, comments, rating } = props.watch;
     return (
         <div className='watch-reviews-container'>
