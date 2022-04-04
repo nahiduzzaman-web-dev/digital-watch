@@ -1,0 +1,9 @@
+.error {
+    font-size: 300px;
+    color: red;
+}
+
+.not-found {
+    font-size: 50px;
+    font-family: monospace;
+}

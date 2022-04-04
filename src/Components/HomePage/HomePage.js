@@ -22,7 +22,7 @@ const HomePage = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        {/* <img src="" className="d-block w-100" alt="..." /> */}
+                        {/* First Slider */}
                         <div className='container'>
                             <div className="row">
                                 <div className="col-md-6">
@@ -47,7 +47,7 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        {/* <img src="..." className="d-block w-100" alt="..." /> */}
+                        {/* Second Slider */}
                         <div className='container'>
                             <div className="row">
                                 <div className="col-md-6">
@@ -72,7 +72,7 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        {/* <img src="..." className="d-block w-100" alt="..." /> */}
+                        {/* Third slider */}
                         <div className='container'>
                             <div className="row">
                                 <div className="col-md-6">

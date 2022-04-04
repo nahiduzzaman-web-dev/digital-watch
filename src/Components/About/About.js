@@ -1,8 +1,8 @@
 import React from 'react';
 import { AiFillGithub } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
-import myImg from '../../Banners/nahid.jpg'
-import './About.css'
+import myImg from '../../Banners/nahid.jpg';
+import './About.css';
 
 const About = () => {
     return (

@@ -1,12 +1,13 @@
 import React from 'react';
-import { MdOutlineWatch } from 'react-icons/md'
-import useProducts from '../hooks/useProducts';
-import './Footer.css'
-import { FaFacebookF } from 'react-icons/fa'
-import { AiFillInstagram } from 'react-icons/ai'
-import { IoLogoYoutube } from 'react-icons/io'
-import { AiFillGithub } from 'react-icons/ai'
+import { MdOutlineWatch } from 'react-icons/md';
+import { FaFacebookF } from 'react-icons/fa';
+import { AiFillInstagram } from 'react-icons/ai';
+import { IoLogoYoutube } from 'react-icons/io';
+import { AiFillGithub } from 'react-icons/ai';
 import { useNavigate } from 'react-router-dom';
+import useProducts from '../hooks/useProducts';
+import './Footer.css';
+
 
 const Footer = () => {
     const [watchProducts, setWatchProducts] = useProducts();
