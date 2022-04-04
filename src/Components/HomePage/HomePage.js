@@ -122,7 +122,7 @@ const HomePage = () => {
 
                     </div>
                     <div className='py-5'>
-                        <button className='explore rounded-pill' onClick={() => navigate('reviews')}>Explore for Buying</button>
+                        <button className='explore rounded-pill' onClick={() => navigate('reviews')}>See All Reviews</button>
                     </div>
                 </div>
             </div>

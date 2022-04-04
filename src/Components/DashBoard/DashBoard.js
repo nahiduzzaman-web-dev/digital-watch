@@ -58,10 +58,9 @@ const DashBoard = () => {
 
                             <div className="chart-area">
                                 <div className='line-chart'>
+                                    <h6 className='text-info mx-5 px-5'>MONTH WISE SELL</h6>
                                     <LineChart width={300} height={300} data={chartData} className="line-chart">
                                         <Line type="monotone" dataKey="sell" stroke="#00FF00" />
-                                        <Line type="monotone" dataKey="revenue" stroke="#8884d8" />
-                                        <Line type="monotone" dataKey="investment" stroke="#000080" />
                                         <CartesianGrid stroke="#ccc" />
                                         <XAxis dataKey="month" />
                                         <YAxis />
@@ -71,26 +70,28 @@ const DashBoard = () => {
                             </div>
 
                             <div className=' bar-chart'>
+                                <h6 className='text-info mx-5 px-5'>INVESTMENT VS REVENUE</h6>
                                 <BarChart width={300} height={300} data={chartData} className="bar-chart">
                                     <CartesianGrid strokeDasharray="3 3" />
                                     <XAxis dataKey="month" />
                                     <YAxis />
                                     <Tooltip />
                                     <Legend />
-                                    <Bar dataKey="sell" fill="#8884d8" />
                                     <Bar dataKey="investment" fill="#82ca9d" />
                                     <Bar dataKey="revenue" fill="#da70d6" />
                                 </BarChart>
                             </div>
-                            <div>
+                            <div className='mt-5'>
+                                <h6 className='text-info mx-5 px-5'>SELL VS INVESTMENT</h6>
                                 <PieChart width={300} height={300} data={chartData}>
-                                    <Pie data={chartData} dataKey="sell" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
+                                    <Pie data={chartData} dataKey="sell" nameKey="sell" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
 
-                                    <Pie data={chartData} dataKey="investment" nameKey="revenue" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
+                                    <Pie data={chartData} dataKey="investment" nameKey="investment" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
                                 </PieChart>
                             </div>
 
-                            <div>
+                            <div className='mt-5'>
+                                <h6 className='text-info mx-5 px-5'>INVESTMENT VS REVENUE</h6>
                                 <RadarChart outerRadius={90} width={300} height={250} data={chartData}>
                                     <PolarGrid />
                                     <PolarAngleAxis dataKey="month" />
